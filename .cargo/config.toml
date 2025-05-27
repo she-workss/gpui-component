@@ -1,2 +1,5 @@
+[patch."https://github.com/huacnlee/zed.git"]
+gpui = { git = "https://github.com/she-workss/zed.git" }
+
 [target.x86_64-pc-windows-msvc]
 rustflags = ["-C", "link-arg=/STACK:8000000"]
